@@ -170,7 +170,8 @@ local Window = Rayfield:CreateWindow({
         FolderName = "BloxFruitsScripts",
         FileName = "Config"
     },
-    KeySystem = false
+    KeySystem = false,
+    GameWindow = true  -- Usando PlayerGui em vez de CoreGui
 })
 
 -- Gui Tabs
@@ -230,4 +231,4 @@ while wait(2) do
         CollectChests()
     end
     ManageInventory()
-end
+endend
